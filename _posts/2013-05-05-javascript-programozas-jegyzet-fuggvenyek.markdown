@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "JavaScript programozás jegyzet - függvények"
+title: "JavaScript programozás jegyzet - Függvények"
 date: 2013-05-05 10:41
 comments: true
 categories:

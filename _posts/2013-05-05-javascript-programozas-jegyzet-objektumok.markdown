@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "JavaScript programozás jegyzet - objektumok"
+title: "JavaScript programozás jegyzet - Objektumok"
 date: 2013-05-05 10:50
 comments: true
 categories: 
@@ -121,22 +121,40 @@ Az egyes tulajdonságok értéke bármi lehet, akár függvény is. Az olyan fü
 
 A metódusok különlegessége, hogy azt az objektumot, amihez tartoznak, a `this` kulcsszó segítségével elérhetik.
 
-Az előző példában megírt `konyv_info()` függvényt metódusként is lehetne definiálni:
+Az előző példában megírt `konyv_info()` függvényt metódusként is lehetne definiálni. Ha csak egy könyv objektumot hozunk létre, nem pedig osztályt, akkor ezt így tehetjük meg:
+
+```javascript
+var konyv1 = {
+  szerzo: "Douglas Adams",
+  cim: "Galaxis útikalauz stopposoknak",
+  kiadas: 1979,
+  azonosito: 42,
+  info: function() {
+    return this.szerzo + ' - ' + this.cim + ' (' + this.kiadas + ')';
+  }
+};
+
+// A metódus használata:
+var s = konyv1.info();
+console.log(s);  // A konzolba kiírja hogy "Douglas Adams - Galaxis útikalauz stopposoknak (1979)"
+```
+
+Ha több könyv objektumunk is lesz, akkor nem túl praktikus az összeshez leírni az `info()` metódus kódját. Ilyenkor általában osztályt hozunk létre, és az osztály minden példányának beállítjuk a metódust a konstruktorban:
 
 ```javascript
 var Konyv = function(szerzo, cim, kiadas) {
   // ...
-  // Ide jöhet az előző példában megírt konstruktor kód
+  // Ide jöhet az előző konstruktoros példában megírt kód
   
   this.info = function() {
     return this.szerzo + ' - ' + this.cim + ' (' + this.kiadas + ')';
   };
 };
 
-var konyv1 = new Konyv("Douglas Adams", "Galaxis útikalauz stopposoknak", 1979);
+var konyv2 = new Konyv("Douglas Adams", "Galaxis útikalauz stopposoknak", 1979);
 
-console.log(konyv1.info());
-// Kiírja hogy: "Douglas Adams - Galaxis útikalauz stopposoknak (1979)"
+var s = konyv2.info();
+console.log(s);  // A konzolba kiírja hogy "Douglas Adams - Galaxis útikalauz stopposoknak (1979)"
 ```
 
 A metódusok legnagyobb előnye, hogy az adott objektumhoz tartozó függvények az adott objektumon keresztül elérhetőek. A metódusokat és a tulajdonságokat használva az összetartozó adatok, és az adatokhoz tartozó műveletek mind egy helyen lesznek elérhetőek, ami általában logikusabb felépítésű és könnyebben olvasható kódhoz vezet.

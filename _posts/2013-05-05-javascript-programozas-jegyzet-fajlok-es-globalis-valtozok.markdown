@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "JavaScript programozás jegyzet - fájlok és globális változók"
+title: "JavaScript programozás jegyzet - Fájlok és globális változók"
 date: 2013-05-05 10:52
 comments: true
 categories: 
@@ -67,7 +67,7 @@ Globális változók
 
 Amikor egy függvényben a `var` kulcsszót használva létrehozunk egy változót, akkor az a változó csak a függvényen belül látszik. Az ilyen változókat **lokális változók**nak nevezzük. Ha nem egy függvényen belül használjuk a `var` kulcsszót változó létrehozására, akkor globális változó jön létre. Az eddigi programokban tehát legtöbbször globális változókkal dolgoztunk.
 
-Az előző példában a két JavaScript fájl tartalma lehetne ez is:
+A következő példában az `elso.js` egy globális változót hoz létre, a `masodik.js` pedig ezt a változót iratja ki:
 
 ```javascript elso.js
 // Az elso.js fájl tartalma:
@@ -89,7 +89,7 @@ Létezik másik két módszer is a globális változók létrehozására, ami ak
 * `y = 10;`
   * ha van `y` nevű lokális változó: értékül adjuk neki a 10-et
   * ha van `y` nevű globális változó: értékül adjuk neki a 10-et
-  * ha nincs `y` nevű lokális változó: létrejön, és értékül adjuk neki a 10-et
+  * ha nincs `y` nevű lokális vagy globális változó: létrejön az `y` *globális* változó, és értékül adjuk neki a 10-et
 
 Látható, hogy a második módszer kísértetiesen hasonlít a lokális változó létrehozására használható `var y = 10;`-hez. Ha nem figyelünk oda, akkor könnyen létrehozhatunk globális változókat lokális változók helyett függvények kódjában is. Hogy ez miért lehet baj, azt a következő rész mutatja be.
 
