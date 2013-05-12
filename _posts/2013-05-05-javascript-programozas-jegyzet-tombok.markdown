@@ -125,9 +125,9 @@ Egyéb metódusok
 
 A tömb osztálynak sok hasznos metódusa van, amiket itt nincs hely bemutatni:
 
-* másolás: [slice]()
-* összefűzés: [concat]()
-* átrendezés, törlés: [splice](), [reverse](), [sort]()
-* elemek szűrése, helyettesítése: [map](), [filter]()
-* sztring létrehozása az elemekből: [join]()
+* másolás: [slice](https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/slice)
+* összefűzés: [concat](https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/concat)
+* átrendezés, törlés: [splice](https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/splice), [reverse](https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/reverse), [sort](https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/sort)
+* elemek szűrése, helyettesítése: [map](https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/map), [filter](https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/filter)
+* sztring létrehozása az elemekből: [join](https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/join)
 
