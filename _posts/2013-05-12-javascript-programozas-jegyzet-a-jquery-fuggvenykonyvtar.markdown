@@ -88,7 +88,7 @@ A fenti HTML kód egy fekete színű négyzetet jelenít meg, aminek az `id` att
 ></div>
 <p></p>
 
-Most változtassuk meg a négyzet színét! Lenti kódrészletet akár a konzolban (CTRL+SHIFT+J) is ki lehet próbálni ezen az oldalon:
+Most változtassuk meg a négyzet színét! A lenti kódrészletet akár a konzolban (CTRL+SHIFT+J) is ki lehet próbálni ezen az oldalon:
 
 ```javascript
 var negyzet_element = document.getElementById('negyzet'); // A "négyzet" element lekérdezése id alapján
