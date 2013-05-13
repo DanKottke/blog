@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "JavaScript programozás jegyzet - Függvények"
+title: "JavaScript programozás - Függvények"
 date: 2013-05-05 10:41
 comments: true
 categories:
-- Programozás jegyzet
+- JavaScript programozás jegyzet
 ---
 
 Függvények a matematikában

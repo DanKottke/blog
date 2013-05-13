@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "JavaScript programozás jegyzet - Tömbök"
+title: "JavaScript programozás - Tömbök"
 date: 2013-05-05 18:31
 comments: true
 categories: 
-- Programozás jegyzet
+- JavaScript programozás jegyzet
 ---
 
 Sokszor van arra szükség, hogy valamilyen elemek listáját kezeljük. Egy webshop esetén például:

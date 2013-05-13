@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "JavaScript programozás jegyzet - A jQuery függvénykönyvtár"
+title: "JavaScript programozás - A jQuery függvénykönyvtár"
 date: 2013-05-12 20:16
 comments: true
 published: true
 categories:
-- Programozás jegyzet
+- JavaScript programozás jegyzet
 ---
 
 A böngésző az oldal betöltésekor beolvassa a HTML fájlt, feldolgozza a stíluslapokat és lefuttatja a hivatkozott szkripteket. Ez azonban csak a kezdet :)
