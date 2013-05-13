@@ -4,7 +4,7 @@ title: "JavaScript programozás jegyzet - Canvas API"
 date: 2013-05-05 10:48
 comments: true
 categories: 
-- Programozás szakkör
+- Programozás jegyzet
 ---
 
 A `<canvas>` egy olyan HTML element, ami egy "rajzvásznat" jelenít meg, amire JavaScript segítségével lehet rajzolni. A rajzoló függvények összefoglaló neve **Canvas API**.

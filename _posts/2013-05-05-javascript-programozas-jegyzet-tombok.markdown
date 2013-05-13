@@ -4,7 +4,7 @@ title: "JavaScript programozás jegyzet - Tömbök"
 date: 2013-05-05 18:31
 comments: true
 categories: 
-- Programozás szakkör
+- Programozás jegyzet
 ---
 
 Sokszor van arra szükség, hogy valamilyen elemek listáját kezeljük. Egy webshop esetén például:

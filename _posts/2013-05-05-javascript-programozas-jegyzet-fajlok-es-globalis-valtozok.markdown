@@ -4,7 +4,7 @@ title: "JavaScript programozás jegyzet - Fájlok és globális változók"
 date: 2013-05-05 10:52
 comments: true
 categories: 
-- Programozás szakkör
+- Programozás jegyzet
 ---
 
 A legtöbb programozási nyelvben lehetőség van arra, hogy **a program egyes részeit külön fájlokban tároljuk**. Egy-egy fájlban általában logikailag összetartozó programkódok vannak: egy webshop programban például valószínűleg nem egy fájlban található a számlakezelés és a raktárkezelés. A számlakezelés lehet hogy több fájlba van szétszedve, attól függően, hogy mekkora a kód mérete, és hogy mennyire elkülöníthetőek az egyes részek egymástól. Az, hogy mennyi, és milyen programkód kerül egy fájlba, az a programozó döntése, hasonlóan ahhoz, ahogy egy író is maga dönti el, hogy a könyvét hogyan bontja részekre, fejezetekre és bekezdésekre. A fájlokra bontással a kód átláthatóbb, könnyebben olvasható lesz (ahogy egy könyv is könnyebben olvasható, ha fejezetekre van osztva).

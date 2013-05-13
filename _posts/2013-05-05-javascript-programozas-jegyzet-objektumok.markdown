@@ -4,7 +4,7 @@ title: "JavaScript programozás jegyzet - Objektumok"
 date: 2013-05-05 10:50
 comments: true
 categories: 
-- Programozás szakkör
+- Programozás jegyzet
 ---
 
 JavaScript-ben (és a legtöbb programozási nyelvben) két alapvető érték típus van: az **egyszerű értékek**, és az **objektumok**. Az egyszerű értékek közé tartoznak a **számok**, **sztringek**, és a **logikai értékek** (`true`, `false`), ezeket már ismerjük.

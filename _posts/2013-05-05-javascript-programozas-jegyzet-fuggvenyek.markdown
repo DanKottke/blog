@@ -4,7 +4,7 @@ title: "JavaScript programozás jegyzet - Függvények"
 date: 2013-05-05 10:41
 comments: true
 categories:
-- Programozás szakkör
+- Programozás jegyzet
 ---
 
 Függvények a matematikában
