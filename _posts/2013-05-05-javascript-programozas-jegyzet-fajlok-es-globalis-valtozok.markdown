@@ -13,6 +13,8 @@ Az egyes programrészeknek valamilyen módon együtt kell dolgozniuk. Ez JavaScr
 
 Sokszor használunk olyan programrészeket, amiket mások írtak. Az olyan programrészleteket, amiket szándékosan arra terveztek, hogy mások használják őket a saját programjukban, **függvénykönyvtár**aknak nevezzük. Ezeket legtöbbször külön fájlként lehet letölteni, és előre meghatározott globális változókat hoznak létre. Ezek a globális változók általában függvények (innen ered az elnevezés), osztályok vagy objektumok, de természetesen tárolhatnak bármilyen más értéket is (szám, sztring, stb.). Az, hogy hogyan kell használni ezeket a globális változókat (pl. milyen argumentumokat kell átadni az adott függvényeknek) a függvénykönyvtár dokumentációja írja le. Ezt nevezzük a könyvtár **API**-jának (Application Programming Interface).
 
+<!-- more -->
+
 HTML és JavaScript fájlok
 -------------------------
 

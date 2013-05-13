@@ -15,6 +15,8 @@ Sokszor van arra szükség, hogy valamilyen elemek listáját kezeljük. Egy web
 
 Az ilyen adatsorok kezelésére az összes programozási nyelv biztosít lehetőséget. Ezeket **tömbök**nek (angolul: **array**), vagy **listák**nak szokás hívni (a két fogalom között sok nyelv különbséget tesz valamilyen szempont alapján, a JavaScript-ben viszont a kettő között nincs különbség).
 
+<!-- more -->
+
 A tömbök mint objektumok
 ------------------------
 

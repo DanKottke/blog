@@ -13,6 +13,8 @@ Az objektumok legfontosabb jellemzője, hogy **tulajdonságokkal (más néven at
 
 Objektumokat használva elérhetjük, hogy az összetartozó adatokat mindig együtt kezeljük. Például egy könyvtár szoftverben az egyes könyveknek megfeleltethetünk egy-egy objektumot. Ezeknek az objektumoknak a tulajdonságai lehetnek például a következők: a könyv címe, azonosítója, a könyvet kikölcsönző olvasók listája, stb. Ilyen módon mindig egy helyen elérhető lesz a könyv összes adata, nem kell őket külön változókban tárolni. Ez megkönnyíti a könyvön végzett műveleteket is, például egy könyv leselejtezésekor egyszerre az összes adatát törölni kell a rendszerből.
 
+<!-- more -->
+
 Objektumok a létrehozása
 ------------------------
 

@@ -22,6 +22,8 @@ Példák:
   * `F` függvény: egy adott tömeg és gyorsulás értékhez egy erő értéket rendel hozzá
 * stb...
 
+<!-- more -->
+
 Függvények a programozásban
 ---------------------------
 

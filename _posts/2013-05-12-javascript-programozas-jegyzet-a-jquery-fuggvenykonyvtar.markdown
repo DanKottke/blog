@@ -19,6 +19,8 @@ Ez a két dolog már elég ahhoz, hogy egyszerű webalkalmazásokat készítsün
 
 A beépített függvények viszont, amikkel ezeket a funkciókal elérhetjük, nem mindig egyszerűen használhatók, és van, hogy böngészőnként eltérően működnek. Szerencsére több olyan függvénykönyvtár is van, ami leegyszerűsíti a dolgunkat. Az egyik ilyen, nagyon népszerű függvénykönyvtár a [jQuery](http://jquery.com/), ennek a használatát fogom röviden bemutatni.
 
+<!-- more -->
+
 Document Object Model
 ---------------------
 

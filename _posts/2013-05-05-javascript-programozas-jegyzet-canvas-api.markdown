@@ -9,6 +9,8 @@ categories:
 
 A `<canvas>` egy olyan HTML element, ami egy "rajzvásznat" jelenít meg, amire JavaScript segítségével lehet rajzolni. A rajzoló függvények összefoglaló neve **Canvas API**.
 
+<!-- more -->
+
 Inicializáció
 -------------
 
