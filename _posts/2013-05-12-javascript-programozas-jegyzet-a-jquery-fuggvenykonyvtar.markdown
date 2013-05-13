@@ -3,7 +3,7 @@ layout: post
 title: "JavaScript programozás jegyzet - A jQuery függvénykönyvtár"
 date: 2013-05-12 20:16
 comments: true
-published: false
+published: true
 categories:
 - Programozás jegyzet
 ---
