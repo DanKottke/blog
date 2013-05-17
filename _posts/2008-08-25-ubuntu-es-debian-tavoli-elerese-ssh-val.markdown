@@ -7,6 +7,7 @@ published: true
 categories: 
 ---
 
+<!-- more -->
 
 Telepítés
 ------------
