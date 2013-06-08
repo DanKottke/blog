@@ -9,7 +9,7 @@ categories:
 
 JavaScript-ben (és a legtöbb programozási nyelvben) két alapvető érték típus van: az **egyszerű értékek**, és az **objektumok**. Az egyszerű értékek közé tartoznak a **számok**, **sztringek**, és a **logikai értékek** (`true`, `false`), ezeket már ismerjük.
 
-Az objektumok legfontosabb jellemzője, hogy **tulajdonságokkal (más néven attribútumokkal) rendelkeznek**. Egy tulajdonságnak mindig **neve**, és **értéke** van (például a tulajdonság neve "magasság" és az értéke "170cm").
+Az objektumok legfontosabb jellemzője, hogy **tulajdonságokkal (angolul property) rendelkeznek**. Egy tulajdonságnak mindig **neve**, és **értéke** van (például a tulajdonság neve "magasság" és az értéke "170cm").
 
 Objektumokat használva elérhetjük, hogy az összetartozó adatokat mindig együtt kezeljük. Például egy könyvtár szoftverben az egyes könyveknek megfeleltethetünk egy-egy objektumot. Ezeknek az objektumoknak a tulajdonságai lehetnek például a következők: a könyv címe, azonosítója, a könyvet kikölcsönző olvasók listája, stb. Ilyen módon mindig egy helyen elérhető lesz a könyv összes adata, nem kell őket külön változókban tárolni. Ez megkönnyíti a könyvön végzett műveleteket is, például egy könyv leselejtezésekor egyszerre az összes adatát törölni kell a rendszerből.
 
@@ -54,13 +54,13 @@ console.log(konyv1['szerzo']);
 console.log('A könyv ennyi éve jelent meg: ' + (2013 - konyv1['kiadas']));
 ```
 
-Egy attribútum értékének megváltoztatása:
+Egy tulajdonság értékének megváltoztatása:
 
 ```javascript
 konyv1.cim = "Viszlát, és kösz a halakat!";
 ```
 
-Egy attribútum törlése:
+Egy tulajdonság törlése:
 
 ```javascript
 delete konyv1.szerzo;
@@ -114,7 +114,7 @@ Látható, hogy a könyv objektumok létrehozása így rövidebb kóddal elérhe
 
 A konstruktorral létrehozott objektumok minden szempontból ugyanúgy viselkednek, mint a tulajdonságok felsorolásával létrehozott obejktumok: el lehet érni a tulajdonságaikat, át lehet őket adni függvényeknek argumentumként, stb.
 
-Amikor azt mondjuk, hogy egy adott osztálynak van egy *x* attribútuma (tulajdonsága), akkor azalatt általában azt értjük, hogy az adott osztály minden példányának van *x* attribútuma (mert a konstruktor beállítja).
+Amikor azt mondjuk, hogy egy adott osztálynak van egy *x* tulajdonsága, akkor azalatt általában azt értjük, hogy az adott osztály minden példányának van *x* tulajdonsága (mert a konstruktor beállítja).
 
 Metódusok
 ---------
@@ -166,13 +166,13 @@ Példák
 
 Még néhány példa arra, hogy mikor szokás objektumokat használni:
 
-* egy rajzolóprogramban lehet egy `Circle` osztály a következő attribútumokkal:
+* egy rajzolóprogramban lehet egy `Circle` osztály a következő tulajdonságokkal:
   * `x`: a kör középpontjának x koordinátája
   * `y`: a kör középpontjának y koordinátája
   * `r`: a kör sugara
   * `draw()`: metódus, ami kirajzolja a kört a képernyőre
   * `area()`: metódus, aminek a visszatérési értéke a kör területe
-* egy zenelejátszó programban lehet egy `Song` osztály a következő attribútumokkal:
+* egy zenelejátszó programban lehet egy `Song` osztály a következő tulajdonságokkal:
   * `author`: a szám szerzője
   * `title`: a szám címe
   * `play()`: metódus, ami elkezdi lejátszani a zeneszámot

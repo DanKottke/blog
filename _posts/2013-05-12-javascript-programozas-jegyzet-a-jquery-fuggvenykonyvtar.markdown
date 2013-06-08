@@ -24,7 +24,7 @@ A beépített függvények viszont, amikkel ezeket a funkciókal elérhetjük, n
 Document Object Model
 ---------------------
 
-**A böngésző** a HTML fájl beolvasásakor sorról sorra halad, és **a beolvasott HTML tag-ekből objektumokat hoz létre**. Ezeket az objektumokat **element**-eknek vagy **node**-oknak nevezzük, és JavaScript-ből is elérhetőek. Az element objektumoknak olyan metódusai, és attribútumai vannak, amiket felhasználva lehetséges az adott element adatait (pl. hol helyezkedik el a képernyőn, stílus adatok, stb.) kiolvasni és módosítani.
+**A böngésző** a HTML fájl beolvasásakor sorról sorra halad, és **a beolvasott HTML tag-ekből objektumokat hoz létre**. Ezeket az objektumokat **element**-eknek vagy **node**-oknak nevezzük, és JavaScript-ből is elérhetőek. Az element objektumoknak olyan metódusai, és tulajdonságai vannak, amiket felhasználva lehetséges az adott element adatait (pl. hol helyezkedik el a képernyőn, stílus adatok, stb.) kiolvasni és módosítani.
 
 Mivel a HTML-ben az egyes tag-eknek lehetnek "gyerekei", ezért a létrejövő objektumhalmaz is hierarchikusan épül fel. A hierarchia legfelső szintjén a `document` objektum van, ennek a gyereke a `<html>` tag-nek megfelelő element, ennek pedig a `<head>` és `<body>` tag-eknek megfelelő objektumok, stb.
 

@@ -43,9 +43,9 @@ var termeklista = ['zöld pengető', 'kék pengető', 'húrok', 'erősítő'];
 Hozzáférés a tömb elemeihez
 ---------------------------
 
-A tömbök olyanok, mint a hagyományos objektumok. Objektumok esetében az attribútumokat így szokás elérni: `objektum.attributum_neve`. Ez viszont csak akkor működik, ha az attribútum neve megfelel bizonyos szabályoknak. Az egyik ilyen szabály, hogy az attribútumneve ne kezdődjön számmal, emiatt a fent létrehozott objektum attribútumait nem fogjuk tudni elérni így: `termeklista.0`, `termeklista.1`, stb.
+A tömbök olyanok, mint a hagyományos objektumok. Objektumok esetében az tulajdonságokat így szokás elérni: `objektum.tulajdonság_neve`. Ez viszont csak akkor működik, ha az tulajdonság neve megfelel bizonyos szabályoknak. Az egyik ilyen szabály, hogy a név ne kezdődjön számmal, emiatt a fent létrehozott objektum tulajdonságait nem fogjuk tudni elérni így: `termeklista.0`, `termeklista.1`, stb.
 
-Ehelyett az objektumoknál látott másik módszert kell használni: `objektum['attributum_neve']`. A szögletes zárójelben sztringet kell megadni, mert az attribútumok neve mindig sztring. Ebből az is következik, hogy a tömb attribútumainak nevei valójában sztring típusúak (pl: `'0'`, `'1'`, `'2'`, nem pedig: `0`, `1`, `2`). Ez azért nem gond, mert ha mégis számot adunk meg a szögletes zárójelben, akkor azt a JavaScript automatikusan sztringgé alakítja át, tehát a következő módszer működni fog: `termeklista[0]`, `termeklista[1]`, `termeklista[2]`, stb. (ugyanennek egy kevésbé kényelmes leírása ez: `termeklista['0']`, `termeklista['1']`, `termeklista['2']`).
+Ehelyett az objektumoknál látott másik módszert kell használni: `objektum['tulajdonság_neve']`. A szögletes zárójelben sztringet kell megadni, mert a tulajdonság neve mindig sztring. Ebből az is következik, hogy a tömb tulajdonságainak nevei valójában sztring típusúak (pl: `'0'`, `'1'`, `'2'`, nem pedig: `0`, `1`, `2`). Ez azért nem gond, mert ha mégis számot adunk meg a szögletes zárójelben, akkor azt a JavaScript automatikusan sztringgé alakítja át, tehát a következő módszer működni fog: `termeklista[0]`, `termeklista[1]`, `termeklista[2]`, stb. (ugyanennek egy kevésbé kényelmes leírása ez: `termeklista['0']`, `termeklista['1']`, `termeklista['2']`).
 
 Tehát röviden: **egy tömb *n*-edik eleméhez úgy férünk hozzá, hogy a tömb referenciája után szögletes zárójelben megadjuk az *n*-et**. Az *n* lehet bármilyen kifejezés, aminek a kiértékelése számot eredményez, például:
 
@@ -68,7 +68,7 @@ termeklista[3] = 'zöld erősítő';
 
 **A tömböket mindig 0-tól számozzuk**, ezért van az, hogy a 3. elemre a 2-es sorszámmal, az 5. elemre pedig a 4-es sorszámmal hivatkozunk.
 
-Bejárás `for` cikussal, és a `length` attribútum
+Bejárás `for` cikussal, és a `length` tulajdonság
 ------------------------------------------------
 
 Ha tudjuk a tömb hosszát, akkor akár `for` cikust is használhatunk a tömb bejárására:
@@ -80,7 +80,7 @@ for (var i = 0; i < 5; i++) {
 }
 ```
 
-A tömbök olyanok, mint a hagyományos objektumok, viszont van néhány plusz attribútumuk. A tömb szintaxis használatával valójában mindig a tömb (`Array`) osztály egy példánya jön létre. Ennek az osztálynak van néhány hasznos attribútuma illetve metódusa (ezeket minden egyes tömb példány megkapja). Az egyik ilyen **a `length` attribútum**, ami **megadja, hogy hány eleme van a tömbnek**. Ez akkor hasznos, ha ezt nem tudjuk előre, például egy adatbázisból kapjuk meg, vagy a felhasználó adja meg a tömböt.
+A tömbök olyanok, mint a hagyományos objektumok, viszont van néhány plusz tulajdonságuk. A tömb szintaxis használatával valójában mindig a tömb (`Array`) osztály egy példánya jön létre. Ennek az osztálynak van néhány hasznos tulajdonsága illetve metódusa (ezeket minden egyes tömb példány megkapja). Az egyik ilyen **a `length` tulajdonság**, ami **megadja, hogy hány eleme van a tömbnek**. Ez akkor hasznos, ha ezt nem tudjuk előre, például egy adatbázisból kapjuk meg, vagy a felhasználó adja meg a tömböt.
 
 A terméklista kiíratása a lista hosszának megadása nélkül:
 
@@ -94,7 +94,7 @@ for (var i = 0; i < termeklista.length; i++) {
 Elemek hozzáadása, törlése
 --------------------------
 
-A tömböket termszetesen lehet módosítani a létrehozás után is. Erre használhatóak az objektumok attribútumainak állítgatására szolgáló módszerek (pl. új termék felvétele: `termeklista[5] = 'tremolo kar';`, az ötödik termék törlése: `delete termeklista[4];`). Leggyakrabban a tömb első, illetve utolsó elemén kell műveleteket végezni, erre pedig vannak kényelmesebben használható metódusai is a tömb osztálynak:
+A tömböket termszetesen lehet módosítani a létrehozás után is. Erre használhatóak az objektumok tulajdonságainak állítgatására szolgáló módszerek (pl. új termék felvétele: `termeklista[5] = 'tremolo kar';`, az ötödik termék törlése: `delete termeklista[4];`). Leggyakrabban a tömb első, illetve utolsó elemén kell műveleteket végezni, erre pedig vannak kényelmesebben használható metódusai is a tömb osztálynak:
 
 * `tomb.pop()`: törli, és visszaadja a tömb utolsó elemét
 * `tomb.push(uj_elem)`: a tömb végére beszúrja a megadott értéket
