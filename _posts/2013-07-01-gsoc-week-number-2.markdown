@@ -2,7 +2,7 @@
 layout: post
 title: "GSoC week #2"
 date: 2013-07-01 19:02
-comments: false
+comments: true
 categories:
  - Google Summer of Code
 ---
