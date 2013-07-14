@@ -11,6 +11,8 @@ I'm happy to announce that node-http2 now implements the first draft of the [HTT
 
 The source code and the [docco][2]-generated documentation of node-http2 is available on [GitHub][3] and in the [NPM repository][4]. The documentation for the compression code is available [here][5] as well.
 
+<!-- more -->
+
 This implementation is designed to be part of a larger project, node-http2, but it's easily usable in itself as well. If you'd like to see it for yourself, please follow the instructions in the next sections.
 
 [1]: http://tools.ietf.org/html/draft-ietf-httpbis-header-compression-00
